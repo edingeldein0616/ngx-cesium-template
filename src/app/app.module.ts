@@ -15,6 +15,7 @@ import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AngularCesiumModule } from 'angular-cesium';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { AppRoutingModule } from './app-routing.module';
     HttpClientModule,
     RouterModule,
     TranslateModule.forRoot(),
+    AngularCesiumModule.forRoot(),
     BrowserAnimationsModule,
     MaterialModule,
     SharedModule,

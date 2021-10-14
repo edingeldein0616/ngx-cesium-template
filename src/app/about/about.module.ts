@@ -6,9 +6,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '@app/material.module';
 import { AboutRoutingModule } from './about-routing.module';
 import { AboutComponent } from './about.component';
+import { AngularCesiumModule } from 'angular-cesium';
 
 @NgModule({
-  imports: [CommonModule, TranslateModule, FlexLayoutModule, MaterialModule, AboutRoutingModule],
+  imports: [CommonModule, TranslateModule, FlexLayoutModule, MaterialModule, AboutRoutingModule, AngularCesiumModule],
   declarations: [AboutComponent],
 })
 export class AboutModule {}
